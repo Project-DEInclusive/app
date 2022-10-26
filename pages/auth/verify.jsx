@@ -28,7 +28,7 @@ const Verify = (props) => {
       if (res.awsresponse === "SUCCESS") {
         router.push(
           router.query.callback == undefined
-            ? "/auth/signin"
+            ? "/"
             : router.query.callback
         );
       }

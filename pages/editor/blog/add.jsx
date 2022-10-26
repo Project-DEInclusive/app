@@ -188,7 +188,7 @@ const Add = (props) => {
                     <div className="mt-6 sm:mt-5 space-y-6 sm:space-y-5">
                         <div className="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:pt-5">
                             <label htmlFor="name" className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2">
-                                Title
+                                Title<span className="text-red-500">*</span>
                             </label>
                             <div className="relative mt-1 sm:mt-0 sm:col-span-2">
                                 <input
@@ -196,7 +196,7 @@ const Add = (props) => {
                                     name="name"
                                     id="name"
                                     autoComplete="given-name"
-                                    placeholder="Full-Stack Developer"
+                                    placeholder="New Blog Post"
                                     className={getInputSytle(errors.name)}
                                     value={dataObj.name}
                                     onChange={handleChange}
@@ -207,7 +207,7 @@ const Add = (props) => {
                         </div>
                         <div className="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:pt-5">
                             <label htmlFor="description" className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2">
-                                Blog Description
+                                Blog Description<span className="text-red-500">*</span>
                             </label>
                             <div className="mt-1 sm:mt-0 sm:col-span-2">
                                 <textarea
@@ -226,7 +226,7 @@ const Add = (props) => {
                         {editorLoaded && (
                             <div className="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:pt-5">
                                 <label htmlFor="pcontent" className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2">
-                                    Blog Article Content
+                                    Blog Article Content <span className="text-red-500">*</span>
                                 </label>
                                 <div className="mt-1 sm:mt-0 sm:col-span-2">
                                     <CKEditor
@@ -248,7 +248,7 @@ const Add = (props) => {
                         )}
                         <div className="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:pt-5">
                             <label htmlFor="cover-photo" className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2">
-                                Blog Thumbnail / Banner
+                                Blog Thumbnail / Banner <span className="text-red-500">*</span>
                             </label>
                             <div className="mt-1 sm:mt-0 sm:col-span-2">
                                 <div className="max-w-lg flex justify-center pb-6 rounded-md">
@@ -298,7 +298,7 @@ const Add = (props) => {
                     <div className="mt-6 sm:mt-5 space-y-6 sm:space-y-5">
                         <div className="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:pt-5">
                             <label htmlFor="category" className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2">
-                                Category
+                                Category <span className="text-red-500">*</span>
                             </label>
                             <div className="mt-1 sm:mt-0 sm:col-span-2">
                                 <select

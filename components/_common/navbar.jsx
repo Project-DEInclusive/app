@@ -19,6 +19,7 @@ const navigation = [
     // { name: "Courses", href: "/course" },
     // { name: "Pricing", href: "/pricing" },
     { name: "Blog", href: "/blog" },
+    { name: "News", href: "/news" },
     { name: "Contact", href: "/contact" },
     { name: "About", href: "/about" },
 ];
