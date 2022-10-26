@@ -42,5 +42,6 @@ Read the [contributing guide](/docs/CONTRIBUTING.md)
     - When programmatically accessing content in `./public/static` directory, use the file path relative to the `./public/static` directory. For example, to display `./public/static/images/cat.webp`, you should use `<img src="/static/images/cat.webp" />`. Note that the path starts with "/"
 
 
-## API v2
-- Vercel 
+## Deployment
+- Vercel
+- AWS
