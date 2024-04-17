@@ -198,7 +198,7 @@ const Home = () => {
           </section>
 
           {/* CEO's Message  */}
-          <section className="bg-slate-100 overflow-hidden py-6">
+          {/* <section className="bg-slate-100 overflow-hidden py-6">
             <div className="relative max-w-7xl mx-auto pt-20 pb-12 px-4 sm:px-6 lg:px-8 lg:py-20">
               <svg
                 className="absolute top-full left-0 transform translate-x-80 -translate-y-24 lg:hidden"
@@ -326,7 +326,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-          </section>
+          </section> */}
 
           {/* Start your journey with us  */}
 
